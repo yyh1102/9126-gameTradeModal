@@ -1,0 +1,185 @@
+.bigImg{
+    background: url("../img/buy-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    display: none;
+}
+
+.demand{
+    width:1000px;
+    height:456px;
+    margin: 50px auto;
+}
+.demand .adverCon{
+    width:550px;
+    height:456px;
+    line-height: 580px;
+    background-color: #EDEDED;
+}
+.demand .adverCon h1{
+    color:#A2A1A1;
+    font-size: 54px;
+}
+.demandBox{
+    width:400px;
+    height:454px;
+    margin-left: 40px;
+    border: 1px solid #F39700;
+}
+.demandBox .topBox{
+    width:400px;
+    height:45px;
+    line-height: 45px;
+    background-color: #F39700;
+    font-size: 14px;
+}
+.demandBox .topBox ul li{
+    display: inline-block;
+    width:198px;
+    height:44px;
+    margin-left: -1px;
+    margin-top: 1px;
+    color:white;
+    background-color: #F39700;
+    cursor:pointer;
+}
+.demandBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.demandBox .topBox .active{
+    background-color: white;
+    color:#F39700;
+}
+.demandBox .mainBox{
+    width:400px;
+    height:533px;
+    margin:0px auto;
+}
+.demandBox .mainBox form{
+    width:80%;
+    margin: 0px auto;
+}
+.demandBox .mainBox select{
+    width:100%;
+    height:35px;
+    border-radius: 5px;
+    margin-top: 28px;
+    border:1px solid #F39700;
+    background-color: #F5F5F5;
+}
+.demandBox .mainBox input{
+    width:98%;
+    height:35px;
+    margin-top: 28px;
+    padding-left:5px;
+    border-radius: 5px;
+    border:1px solid #F39700;
+}
+.demandBox .mainBox .submitBtn{
+    width:140px;
+    height:35px;
+    line-height: 35px;
+    color:white;
+    background-color: #F39700;
+    border:0px;
+    border-radius: 5px;
+    margin-top: 28px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.demandBox .mainBox .submitBtn:hover{
+    background-color: #f7953b;
+}
+
+/*hotrecommend*/
+.hotRecommendBox{
+    width:1000px;
+    margin:120px auto;
+}
+.hotRecommendBox .topBox{
+    width:1000px;
+    height:30px;
+    margin-top: 30px;
+}
+.hotRecommendBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    color:white;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+}
+.hotRecommendBox .topBox ul{
+    background-color: #F39700;
+}
+.hotRecommendBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.hotRecommendBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.hotRecommendBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.hotRecommendBox .mainBox{
+    width:998px;
+    height:852px;
+    margin-top: 9px;
+    border:1px solid #F39700;
+}
+.hotRecommendBox .mainBox .detailBox{
+    width:100%;
+}
+.hotRecommendBox .mainBox .detailInfo{
+    width:100%;
+    height:70px;
+    line-height: 70px;
+    border-bottom: 1px solid #ebebeb;
+}
+.hotRecommendBox .mainBox .detailInfo img{
+    width:60px;
+    height:60px;
+    margin-left: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.hotRecommendBox .mainBox .detailInfo .title{
+    margin-left: 45px;
+}
+.hotRecommendBox .mainBox .detailInfo .info{
+    height:70px;
+    width:200px;
+    line-height: 70px;
+    margin-left: 30px;
+}
+.hotRecommendBox .mainBox .detailInfo .buyBtn{
+    border:0px;
+    background-color: #F39700;
+    width:160px;
+    height:70px;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.hotRecommendBox .mainBox .detailInfo .buyBtn:hover{
+    background-color: #f7953b;
+}

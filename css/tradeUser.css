@@ -1,0 +1,184 @@
+.bigImg{
+    background: url("../img/user-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: -3px;
+}
+/* advertise container*/
+.advCon{
+    width:100%;
+    height: 250px;
+    min-width:1000px;
+    background-color: #EDEDED;
+    margin-top:40px;
+    line-height: 250px;
+}
+.advCon h1{
+    width:150px;
+    margin:0px auto;
+    font-size: 48px;
+    color:#A2A1A1;
+}
+
+/* hot recommend */
+.hotRecommend{
+    width:1000px;
+    margin:50px auto;
+}
+.nameBar{
+    width: 1000px;
+    margin:40px auto;
+    margin-bottom: 0px;
+}
+.nameBar ul{
+    background-color: #F39700;
+    padding:10px;
+}
+.nameBar ul li{
+    display:inline-block;
+    margin-left: 35px;
+}
+.nameBar ul li:first-child{
+    margin-left: 0px;
+}
+.nameBar ul a{
+    color:white;
+}
+
+/* account box*/
+.accountBox{
+    width:1000px;
+    margin: 20px auto;
+}
+.accDetail{
+    width: 245px;
+    /*height:460px;*/
+    margin-left: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+.accDetail:hover{
+    box-shadow: 0 0 5px;
+}
+.accImg img{
+    width:245px;
+    height:280px;
+}
+.safeLevel{
+    text-align: left;
+    font-size: 12px;
+    width:245px;
+    height:40px;
+    line-height: 40px;
+    background-color: #faeecc;
+}
+.safeLevel h1{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.safeLevel img{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    margin-left: 5px;
+}
+.accExplain ul li{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.loadMore{
+    display: block;
+    margin:30px auto;
+    margin-bottom: 40px;
+    width: 200px;
+    height:50px;
+    color:#b3b3b3;
+    font-size: 16px;
+}
+/* account ranking*/
+.rankingBox{
+    width:1000px;
+    margin:40px auto;
+}
+
+.accRank{
+    width:450px;
+    height:500px;
+    margin-left: 80px;
+}
+.accRank:first-child{
+    margin-left: 10px;
+}
+.accRank h1{
+    font-size: 16px;
+}
+.accRank>a{
+    margin-right: 20px;
+}
+.accRank ul li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.accRank ul span{
+    margin-top: 10px;
+}
+.accRank .num{
+    width:20px;
+    height:20px;
+    background-color: #CCCCCC;
+    color:white;
+    margin-left: 5px;
+}
+.accRank .gameName{
+    margin-left: 15px;
+}
+.accRank .cost{
+    margin-right: 20px;
+    color:#FF9900;
+}
+.accRank .info{
+    margin-left: 35px;
+}
+.accRank .buyBtn,.accRank .checkBtn{
+    margin-right: 20px;
+    margin-top: 5px;
+    width:70px;
+    height: 30px;
+    color:white;
+    background-color: #F39700;
+    border: 1px solid #F39700;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.accRank .buyBtn:hover,.accRank .checkBtn:hover{
+    background-color: #f7953b;
+}
+.accRank .active{
+    background-color: #FFFAE8;
+    border:1px solid #F3E5C2;
+    padding-left: 10px;
+}
+.accRank .active .num{
+    background-color: #FF9900;
+}
+.accRank .active .gameName{
+    font-weight: bold;
+}
+.accRank .active .cost{
+    margin-right: 15px;
+}

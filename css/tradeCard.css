@@ -1,0 +1,273 @@
+.bigImg{
+    background: url("../img/card-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: 256px;
+}
+
+/* card trade*/
+.cardTrade{
+    width:1000px;
+    height:520px;
+    margin:80px auto;
+}
+
+.cardTrade .title{
+    color:#FF9900;
+    font-size: 16px;
+    margin-top:30px;
+}
+.cardTrade .divideBar{
+    width:400px;
+    height:1px;
+    margin:20px auto;
+    background-color: #FF9900;
+}
+.cardSearch{
+     width:450px;
+     height:520px;
+     border: 1px solid #F39700;
+     border-radius: 5px;
+}
+.cardSearch .tagBox{
+    width:380px;
+    height:40px;
+    margin:30px auto;
+}
+.cardSearch .tagBox ul li{
+    display: inline-block;
+    width:90px;
+    height:40px;
+    line-height: 40px;
+    background-color: #F39700;
+    border:1px solid #F39700;
+    margin-left: -3px;
+    cursor: pointer;
+    color:white;
+}
+.cardSearch .tagBox ul li:first-child{
+    margin-left: 0px;
+}
+.cardSearch .tagBox .active{
+    background-color: #ffffff;
+    color:#F39700;
+}
+.searchForm{
+    width:400px;
+    height:430px;
+    margin:30px auto;
+}
+.searchForm select{
+    width:370px;
+    height:40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.searchForm select:first-child{
+    margin-top: 0px;
+}
+.searchForm .cardPrice{
+    width:370px;
+    height:100px;
+    margin-top: 30px;
+    text-align: left;
+}
+.searchForm .cardPrice p{
+    color:#9E9B9B;
+    margin-left: 18px;
+}
+.searchForm .cardPrice input{
+    width:15px;
+    height:15px;
+    margin-left: 20px;
+}
+.searchForm .cardPrice .box{
+    margin-top: 20px;
+}
+.searchForm .price{
+    margin-left:5px;
+    color:#FE972F;
+}
+.searchForm .tips{
+    color:#9E9B9B;
+    font-size: 12px;
+}
+.searchForm .submitBtn{
+    margin-top: 30px;
+    width:120px;
+    height:40px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    background-color: #F39700;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.searchForm .submitBtn:hover{
+    background-color: #f7953b;
+}
+
+.cardRanking{
+    width:420px;
+    height: 520px;
+    border:1px solid #F39700;
+    border-radius: 5px;
+    margin-left: 120px;
+}
+.rankBox{
+    width:400px;
+    height:440px;
+    margin:0px auto;
+}
+.detailInfo{
+    width:360px;
+    height:50px;
+    margin:10px auto;
+    border-top: 1px solid #ffcf5b;
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+.detailInfo:first-child{
+    border-top: 0px;
+}
+.detailInfo .id{
+    color:#FE7F00;
+    font-size: 16px;
+}
+.detailInfo .game{
+    margin-left: 5px;
+}
+.detailInfo .card{
+    margin-left: 130px;
+}
+.detailInfo .price{
+    margin-left: 20px;
+    margin-top: 18px;
+    color:#FE7F00;
+}
+.detailInfo .buy{
+    width:100px;
+    height:30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #F39700;
+    margin-left: 150px;
+    margin-top: 10px;
+    color:#ffffff;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.detailInfo .buy:hover{
+    background-color: #f79b35;
+}
+.rankBox .more{
+    display: block;
+    margin-top: 35px;
+}
+
+/* advertise container*/
+.advCon{
+    width:100%;
+    height: 250px;
+    min-width:1000px;
+    background-color: #EDEDED;
+    margin-top:40px;
+    line-height: 250px;
+}
+.advCon h1{
+    width:150px;
+    margin:0px auto;
+    font-size: 48px;
+    color:#A2A1A1;
+}
+
+/* hotRecommend Box*/
+.hotRecommend{
+    width:1000px;
+    margin:70px auto;
+}
+.recomMainBox{
+    width:1000px;
+    margin:20px auto;
+}
+.recomMainBox .topBox{
+    width:1000px;
+    height:30px;
+}
+.recomMainBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+    color:white;
+}
+.recomMainBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.recomMainBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.recomMainBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.mainBox{
+    width:998px;
+    height:529px;
+    margin-top: 9px;
+    border:1px solid #F39700;
+}
+.mainBox .detailBox{
+    width:980px;
+    height:540px;
+    margin-top: 6px;
+    padding-left: 20px;
+}
+.mainBox .detailInfo{
+    width:230px;
+    height:122px;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F39700;
+}
+.mainBox .detailInfo img{
+    width:120px;
+    height:90px;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+.mainBox .detailInfo:hover img{
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.mainBox  .title{
+    font-size: 12px;
+    margin-top:10px;
+    color:#868683;
+}

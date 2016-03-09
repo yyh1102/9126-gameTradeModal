@@ -1,0 +1,36 @@
+.pendant{
+    width:130px;
+    height:140px;
+    position: fixed;
+    top:172px;
+}
+.pendant button{
+    width: 128px;
+    height:44px;
+    border: 0px;
+    opacity: 0.85;
+    background-color: #F39700;
+    margin-top: 2px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    cursor:pointer;
+}
+.pendant a{
+    display: block;
+    color:white;
+    width: 128px;
+    height:44px;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pendant button:hover{
+    background-color: snow;
+}
+.pendant button:hover a{
+    color:#F39700;
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>9126-点卡交易</title>
+    <link rel="stylesheet" type="text/css" href="../css/init.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageHeader.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageFooter.css">
+    <link rel="stylesheet" type="text/css" href="../css/pendant.css">
+    <link rel="stylesheet" type="text/css" href="../css/tradeCard.css">
+    <script src="../js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+<div class="pendant fl">
+    <button><a href="#">我要买</a></button>
+    <button><a href="#">我要卖</a></button>
+    <button><a href="#">我的9126</a></button>
+</div>
+<script>
+    setInterval(function(){
+        var box=$(".box");
+        var boxLeft=box.offset().left;
+        var boxWidth=box.width();
+        $(".pendant").css({
+            'left':boxLeft+boxWidth
+        })
+    },50)
+</script>
+<div class="container">
+    <script src="../js/headModel.js"></script>
+    <div class="box">
+        <div class="cardTrade">
+            <div class="cardSearch fl">
+                <h1 class="title">官方直充</h1>
+                <div class="divideBar"></div>
+                <div class="tagBox">
+                    <ul>
+                        <li class="active">点卡</li>
+                        <li>游戏币</li>
+                        <li>QQ</li>
+                        <li>话费流量</li>
+                    </ul>
+                </div>
+                <form class="searchForm">
+                    <select>
+                        <option selected="selected">游戏名称</option>
+                        <option>天涯明月刀</option>
+                        <option>梦幻西游</option>
+                        <option>跑跑卡丁车</option>
+                    </select>
+                    <select>
+                        <option selected="selected">面值</option>
+                        <option>100元</option>
+                        <option>50元</option>
+                        <option>20元</option>
+                        <option>10元</option>
+                    </select><br>
+                    <div class="cardPrice cl"><p>价格</p>
+                        <div class="box">
+                            <input type="radio" name="cardPrice" value="￥95.00" class="fl">
+                            <span class="price fl">￥95.00</span>
+                            <span class="tips fr">客服快充</span>
+                            <div class="cl"></div>
+                        </div>
+                        <div class="box">
+                            <input type="radio" name="cardPrice" value="￥0.00" class="fl">
+                            <span class="price fl">￥15.00</span>
+                            <span class="tips fr">自动卡密</span>
+                            <div class="cl"></div>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="立即购买" class="submitBtn">
+                </form>
+            </div>
+            <div class="cardRanking fl">
+                <h1 class="title">点卡交易排行榜</h1>
+                <div class="divideBar"></div>
+                <div class="rankBox">
+                    <div class="detailInfo">
+                        <h1 class="id fl">①</h1>
+                        <h1 class="game fl">地下城与勇士</h1>
+                        <p class="card fl">10000个直充点券</p>
+                        <h1 class="price fl">￥95.50</h1>
+                        <button class="buy">立即购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo">
+                        <h1 class="id fl">①</h1>
+                        <h1 class="game fl">地下城与勇士</h1>
+                        <p class="card fl">10000个直充点券</p>
+                        <h1 class="price fl">￥95.50</h1>
+                        <button class="buy">立即购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo">
+                        <h1 class="id fl">①</h1>
+                        <h1 class="game fl">地下城与勇士</h1>
+                        <p class="card fl">10000个直充点券</p>
+                        <h1 class="price fl">￥95.50</h1>
+                        <button class="buy">立即购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo">
+                        <h1 class="id fl">①</h1>
+                        <h1 class="game fl">地下城与勇士</h1>
+                        <p class="card fl">10000个直充点券</p>
+                        <h1 class="price fl">￥95.50</h1>
+                        <button class="buy">立即购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <a href="#" class="more">更多&gt;&gt;</a>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </div>
+    </div>
+    <div class="advCon">
+        <h1>广告位</h1>
+    </div>
+    <div class="box">
+        <div class="hotRecommend cl">
+            <div class="titleBox">
+                <div class="decorateBar fl"></div>
+                <h1 class="fl">热门推荐</h1>
+                <div class="decorateBar fl"></div>
+                <div class="cl"></div>
+            </div>
+            <script>
+                setInterval(function(){
+                    var dcbar=$(".hotRecommend .decorateBar");
+                    var bar1=dcbar.eq(0);
+                    var bar2=dcbar.eq(1);
+                    var box=$(".hotRecommend .titleBox");
+                    var boxLeft=box.offset().left;
+                    var boxWidth=box.width();
+//                    console.log(boxWidth);
+                    bar1.css({
+                        'left':boxLeft,
+                        'width':boxWidth/2.5
+                    });
+                    bar2.css({
+                        'left':boxWidth+boxLeft-boxWidth/2.5,
+                        'width':boxWidth/2.5
+                    })
+                },50)
+            </script>
+            <div class="recomMainBox">
+                <div class="topBox">
+                    <ul class="fl">
+                        <li class="active">点卡</li>
+                        <li>游戏元宝</li>
+                        <li>激活码</li>
+                    </ul>
+                    <a href="#" class="more fr">更多&gt;&gt;</a>
+                    <div class="fl"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="detailBox cl">
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/liantong.jpg"/>
+                                <p class="title">联通话费充值</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/yidong.jpg"/>
+                                <p class="title">移动话费充值</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/Qbi.jpg"/>
+                                <p class="title">Q币充值</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg"/>
+                                <p class="title">龙之谷</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-footer">
+        <div class="serviceBox cl">
+            <div class="service fl">
+                <ul>
+                    <p>新手入门</p>
+                    <li><a href="#">诚信与安全</a></li>
+                    <li><a href="#">用户注册</a></li>
+                    <li><a href="#">交易流程</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>充值提现</p>
+                    <li><a href="#">充值方式</a></li>
+                    <li><a href="#">如何提现</a></li>
+                    <li><a href="#">交易收费标准</a></li>
+                    <li><a href="#">提现收费标准</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>客服中心</p>
+                    <li><a href="#">客服验证</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">咨询建议</a></li>
+                    <li><a href="#">商务合作</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>了解9123</p>
+                    <li><a href="#">信念与荣耀</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">免责声明</a></li>
+                    <li><a href="#">隐私保护</a></li>
+                </ul>
+            </div>
+            <div class="cl"></div>
+        </div>
+        <div class="declare">
+            <ul>
+                <li><a href="#">&nbsp;关于我们&nbsp;</a></li>|
+                <li><a href="#">&nbsp;合作联系&nbsp;</a></li>|
+                <li><a href="#">&nbsp;隐私保护&nbsp;</a></li>|
+                <li><a href="#">&nbsp;投诉建议&nbsp;</a></li>|
+                <li><a href="#">&nbsp;诚聘英才&nbsp;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/tagChange.js"></script>
+<script>
+    $(document).ready(function(){
+        tagChange(".cardTrade .tagBox");
+        tagChange(".hotRecommend .topBox")
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+.top-header{
+    width:100%;
+    min-width:1000px;
+    height:50px;
+    background-color: #e2e2e6;
+    line-height: 50px;
+    color: #6f6f72;
+    font-size: 12px;
+}
+.loginBox{
+    margin-left: 60px;
+    width:370px;
+    height:40px;
+}
+.loginBox a{
+    color: #7f443f;
+}
+.loginBox .backIndex{
+    margin-left: 30px;
+    color: #696969;
+}
+.loginBox .backIndex:hover{
+    text-decoration: none;
+    color: #F9B552;
+}
+.funcBox{
+    width:520px;
+    height:40px;
+}
+.funcBox a:hover{
+    color: #7f443f;
+}
+.loginBox ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 25px;
+
+}
+.funcBox ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 30px;
+}
+.funcBox ul li a{
+    color: #6f6f72;
+}
+
+.nav-header{
+    width:100%;
+    min-width: 1100px;
+    height:80px;
+    background-color: #ffffff;
+}
+.logo{
+    width:200px;
+    height:80px;
+    line-height: 80px;
+    margin-left: 40px;
+    text-align: left;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+.navBar{
+    width:750px;
+    height:80px;
+    line-height: 80px;
+    margin-right: 50px;
+}
+.navBar ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.navBar ul li:first-child{
+    margin-left: 0px;
+}
+.navBar ul li a{
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.navBar ul li a:hover{
+    text-decoration: none;
+    color:#F9B552;
+}
+.bigImg{
+    width:100%;
+    min-width:1000px;
+    height: 300px;
+    padding-top:75px;
+}
+.underLine{
+    position: absolute;
+    top:105px;
+    width:60px;
+    height:2px;
+    background-color: #F9B552;
+}
+.bigImg .slogan{
+    width:600px;
+    height:80px;
+    line-height: 80px;
+    border: 1px solid snow;
+    margin:0px auto;
+}
+.bigImg .slogan h1{
+    color:snow;
+    font-size: 32px;
+}
+.bigImg .backDiv{
+    display:none;
+    background-color: #EDEDED;
+    width:940px;
+    height:150px;
+    top:410px;
+    opacity: 0.3;
+    position: absolute;
+    border-radius: 10px;
+}
+.searchBox{
+    width:900px;
+    margin: 50px auto;
+}
+.searchBox input{
+    width:150px;
+    height:40px;
+    float: left;
+    border-left:1px;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.searchBox .submitBtn {
+    width: 80px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 0px;
+    cursor: pointer;
+    color: #FFA001;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0px;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+.searchBox .submitBtn:hover{
+    background-color: #FF9F00;
+    color:snow;
+}
+.searchBox .showBox{
+    position: absolute;
+    text-align: left;
+    margin-left:-55px;
+    background-color: white;
+    top:400px;
+}
+.searchBox .gameChoice{
+    display:none;
+    z-index:3;
+    width:1000px;
+    background-color: white;
+    border: 1px solid #FF9F00;
+    padding-bottom: 15px;
+}
+.searchBox .outerTri {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #FF9F00;
+    margin-top: -12px;
+    margin-left: -2px;
+}
+.searchBox .innerTri{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    margin-top:-10px;
+    margin-left:0px;
+}
+.searchBox .triangle-up{
+    height:10px;
+    margin-left: 70px;
+}
+.searchBox .gameChoice .topBox{
+    width:291px;
+    height:37px;
+    background-color: #FF9F00;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.searchBox .gameChoice .topBox ul li{
+    display: inline-block;
+    width:95px;
+    height:35px;
+    line-height: 35px;
+    color:snow;
+    border: 1px solid #FF9F00;
+    text-align: center;
+    cursor: pointer;
+}
+.searchBox .gameChoice .topBox .active{
+    background-color: white;
+    color:#FF9F00;
+}
+.searchBox .gameChoice .letterBox{
+    width:700px;
+    height:25px;
+    margin-top: 10px;
+}
+.searchBox .gameChoice .letterBox span{
+    color:#F39700;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.searchBox .gameChoice .letterBox ul{
+    margin-left: 20px;
+    background-color: #EDEDED;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.searchBox .gameChoice .letterBox ul li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.searchBox .gameChoice .letterBox ul li:first-child{
+    margin-left: 2px;
+}
+.searchBox .gameChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.searchBox .gameChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:160px;
+    height:20px;
+    margin-top: 20px;
+}
+.searchBox .choiceMainBox ul li{
+    cursor: pointer;
+}
+.searchBox .choiceMainBox ul li:hover{
+    color:#C75C28;
+}
+
+.searchBox .areaChoice,.searchBox .serverChoice,.searchBox .goodsChoice{
+    display:none;
+    z-index:3;
+    width:1000px;
+    border: 1px solid #FF9F00;
+    padding-bottom: 15px;
+}
+.searchBox .areaChoice .triangle-up{
+    margin-left: 240px;
+}
+.searchBox .areaChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #FF9F00;
+    padding-bottom: 10px;
+}
+.searchBox .areaChoice .topBox h1{
+    color: #FF9F00;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .areaChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .areaChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.searchBox .serverChoice .triangle-up{
+    margin-left: 410px;
+}
+.searchBox .serverChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #FF9F00;
+    padding-bottom: 10px;
+}
+.searchBox .serverChoice .topBox h1{
+    color: #FF9F00;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .serverChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .serverChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.searchBox .goodsChoice .triangle-up{
+    margin-left: 570px;
+}
+.searchBox .goodsChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #FF9F00;
+    padding-bottom: 10px;
+}
+.searchBox .goodsChoice .topBox h1{
+    color: #FF9F00;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .goodsChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .goodsChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.hotSearch{
+    color: #ff672c;
+    width:650px;
+    height:30px;
+    margin:125px auto;
+}
+.hotSearch ul li{
+    display: inline-block;
+}
+.hotSearch ul li a{
+    color:#dedede;
+    margin-left: 10px;
+}
+.titleBox{
+    width:100%;
+    min-width: 1000px;
+    height:30px;
+    line-height: 30px;
+    font-size: 28px;
+    margin:0px auto;
+}
+.titleBox h1{
+    display: block;
+    width:200px;
+    height:30px;
+    margin:0px auto;
+}
+.decorateBar{
+    height:2px;
+    background-color: #F39700;
+    margin-top: 10px;
+}
+
+/* two module */
+.twoModule{
+    width:100%;
+}
+.moduleBox{
+    width:620px;
+    height:60px;
+    margin:35px auto;
+}
+.moduleBox a:first-child{
+    display: block;
+    width:150px;
+    padding:0px 20px 0px 20px;
+    height:60px;
+    line-height: 60px;
+    background-color: #F39700;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: -10px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.moduleBox a:nth-child(2){
+    display: block;
+    padding:0px 20px 0px 20px;
+    width:150px;
+    height:60px;
+    line-height: 60px;
+    background-color: #EC6841;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 250px;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.moduleBox a:hover{
+    text-decoration: none;
+}
+.moduleBox a:first-child:hover{
+    background-color: #f2ab10;
+
+}
+.moduleBox a:nth-child(2):hover{
+    background-color:#ec8b66 ;
+}

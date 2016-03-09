@@ -1,0 +1,359 @@
+.header{
+    width:100%;
+    min-width:1000px;
+    height:140px;
+    background-color: #f5f5f5;
+}
+.header .logo{
+    font-size:40px;
+    margin-left: 40px;
+    line-height: 140px;
+    text-align: center;
+    color:#2b2b2b;
+}
+.header a:hover{
+    color:#2b2b2b;
+}
+.header .searchBox{
+    width:690px;
+    height:85px;
+    margin:35px auto;
+    margin-right: 100px;
+}
+.header .searchBox form{
+    border:1px solid #F39700;
+}
+.header .searchBox form input{
+    width:100px;
+    font-size: 12px;
+}
+.header .searchBox .keywords{
+    width:150px;
+    border-right: #F39700;
+}
+.header .searchBox .submitBtn{
+    border-left:1px solid #F39700;
+}
+.header .searchBox .hotSearch{
+    margin:20px auto;
+}
+.header .searchBox .hotSearch a{
+    color: #8f8789;
+}
+.header .searchBox .hotSearch a:hover{
+    color:#F39700;
+}
+.header .searchBox .showBox{
+    position: absolute;
+    text-align: left;
+    margin-left:-220px;
+    background-color: white;
+    top:150px;
+}
+.searchBox .gameChoice .triangle-up{
+    margin-left: 240px;
+}
+.searchBox .areaChoice .triangle-up{
+    margin-left: 350px;
+}
+.searchBox .serverChoice .triangle-up{
+    margin-left: 460px;
+}
+.searchBox .goodsChoice .triangle-up{
+    margin-left: 570px;
+}
+.noticeBox{
+    width:1000px;
+    height:30px;
+    line-height: 30px;
+    margin: 70px auto;
+    margin-bottom: 0px;
+    color:#696969;
+}
+.noticeBox a{
+    color:#e97b0e;
+}
+.noticeBox .num{
+    color: #e97b0e;
+}
+
+/* choice box*/
+.choiceBox{
+    width:100%;
+    height:287px;
+}
+.choiceBox .typeChoice{
+    width:1000px;
+    margin: 0px auto;
+    height:143px;
+    border:1px solid #c1c1c1;
+    text-align: left;
+}
+.choiceBox .typeChoice .leftBox{
+    width:143px;
+    height:143px;
+    line-height: 143px;
+    text-align: center;
+    color: #e97b0e;
+}
+.choiceBox .typeChoice .rightBox{
+    width:850px;
+    height:143px;
+}
+.choiceBox .typeChoice ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.choiceBox .areaChoice{
+    width:1000px;
+    margin: 0px auto;
+    height:143px;
+    border:1px solid #c1c1c1;
+    border-top:0px;
+    text-align: left;
+}
+.choiceBox .areaChoice .leftBox{
+    width:143px;
+    height:143px;
+    line-height: 143px;
+    text-align: center;
+    color: #e97b0e;
+}
+.choiceBox .areaChoice .rightBox{
+    width:850px;
+    height:143px;
+}
+.choiceBox .areaChoice ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+/* list box */
+.listBox{
+    width:1000px;
+    margin:60px auto;
+}
+.listBox .topBox{
+    width:1000px;
+    height:30px;
+    margin-top: 30px;
+}
+.listBox .topBox ul li{
+    display: inline-block;
+    width:110px;
+    height:38px;
+    color:white;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+}
+.listBox .topBox ul{
+    background-color: #F39700;
+}
+.listBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.listBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.listBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.listBox .filterBox{
+    width:998px;
+    height:100px;
+    font-size: 12px;
+    border:1px solid #F39700;
+    border-bottom:0px;
+    margin-top:9px;
+}
+.listBox .filterBox .priceFilter{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.listBox .filterBox .priceFilter input{
+    width:50px;
+    height:18px;
+}
+.listBox .filterBox .priceFilter button{
+    width:50px;
+    height:23px;
+    line-height: 23px;
+    border: 0px;
+    font-size: 12px;
+}
+.listBox .filterBox .filterFeature{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.listBox .filterBox .filterFeature input{
+    margin-left: 5px;
+}
+.defaultSort,.honestySort,.priceSort{
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border:0px;
+    cursor:pointer;
+}
+.priceSort .arrowBox{
+    margin-top: -7px;
+    margin-right: 5px;
+}
+.priceSort .arrowUp,.priceSort .arrowDown{
+    height:15px;
+}
+
+
+.listBox .mainBox{
+    width:998px;
+    border:1px solid #F39700;
+    border-top:0px;
+}
+.listBox .mainBox .detailBox{
+    width:100%;
+}
+.listBox .mainBox .detailInfo{
+    width:100%;
+    height:80px;
+    border-bottom: 1px solid #ebebeb;
+}
+.listBox .mainBox .detailInfo:first-child{
+    border-top:1px solid #ebebeb;
+}
+.listBox .mainBox .detailInfo img{
+    width:70px;
+    height:70px;
+    margin-left: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.listBox .mainBox .titleCon{
+    margin-left: 25px;
+    padding-top: 25px;
+    text-align: left;
+    width:160px;
+    height:80px;
+}
+.listBox .mainBox .titleCon .title{
+    width:150px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listBox .mainBox .titleCon .credit{
+    margin-top: 5px;
+}
+.listBox .mainBox .titleCon .credit span{
+    display: block;
+    width:50px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+.listBox .mainBox .titleCon .credit img{
+    width:20px;
+    height:20px;
+    margin-left: 0px;
+}
+
+.listBox .mainBox .detailInfo .info{
+    font-size: 12px;
+    height:70px;
+    padding-top:20px;
+    width:400px;
+    margin-left: 30px;
+    text-align: left;
+}
+.listBox .mainBox .detailInfo .info span{
+    display:block;
+    width:500px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.listBox .mainBox .detailInfo .info span:first-child{
+    color: #2d2adf;
+}
+.listBox .mainBox .detailInfo .info span:last-child{
+    margin-top: 5px;
+}
+.listBox .mainBox .detailInfo .price{
+    text-align: left;
+    display: block;
+    width:120px;
+    height:80px;
+    line-height: 80px;
+    color:#EC6841;
+    font-weight: bold;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.listBox .mainBox .detailInfo .buyBtn{
+    border:0px;
+    background-color: #F39700;
+    width:160px;
+    height:80px;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.listBox .mainBox .detailInfo .buyBtn:hover{
+    background-color: #f7953b;
+}
+
+.listBox .pagination{
+    width:1000px;
+    height:50px;
+    margin-top: 10px;
+}
+.listBox .pagination ul{
+    margin-right: 10px;
+}
+.listBox .pagination ul li{
+    display:inline-block;
+    cursor:pointer;
+    min-width: 20px;
+    padding: 2px;
+    height:20px;
+    margin-left: 5px;
+    border: 1px solid #F39700;
+}
+.listBox .pagination ul li:last-child{
+    width:60px;
+    margin-left: 10px;
+}
+
+/*adv*/
+.advcon{
+    width:100%;
+    height: 170px;
+    line-height: 170px;
+    color:#A2A1A0;
+    font-size: 60px;
+    background-color: #EDEDED;
+    text-align: center;
+    margin-bottom: 30px;
+}

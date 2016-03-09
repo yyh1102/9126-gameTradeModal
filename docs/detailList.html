@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情列表-9126</title>
+    <link rel="stylesheet" type="text/css" href="../css/init.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageHeader.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageFooter.css">
+    <link rel="stylesheet" type="text/css" href="../css/detailList.css">
+    <script src="../js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="top-header">
+        <div class="loginBox fl">
+            <ul>
+                <li>你好！请<a href="#">登录</a></li>
+                <li><a href="#">QQ登录</a></li>
+                <li><a href="#">免费注册</a></li>
+                </ul>
+        </div>
+        <div class="funcBox fr">
+            <ul>
+                <li><a href="#">买家中心</a></li>
+                <li><a href="#">卖家中心</a></li>
+                <li><a href="#">充值</a></li>
+                <li><a href="#">提现</a></li>
+                <li><a href="#">购物车</a></li>
+                <li><a href="#">客服中心</a></li>
+            </ul>
+        </div>
+        <div class="cl"></div>
+    </div>
+    <div class="header">
+        <a href="../index2.html"><h1 class="logo fl">9126LOGO</h1></a>
+        <div class="searchBox fr">
+            <form>
+                <input type="text" placeholder="游戏名称" class="gameShow">
+                <input type="text" placeholder="游戏区" class="areaShow">
+                <input type="text" placeholder="游戏服务器" class="serverShow">
+                <input type="text" placeholder="商品分类" class="goodsShow">
+                <input type="text" class="keywords" placeholder="关键字">
+                <button type="submit" class="submitBtn">搜索</button>
+            </form>
+            <script src="../js/showChoiceBox.js"></script>
+            <div class="hotSearch">
+                <ul>热门搜索:
+                    <li><a href="#">魔兽世界</a></li>
+                    <li><a href="#">地下城与勇士</a></li>
+                    <li><a href="#">仙侠情缘</a></li>
+                    <li><a href="#">问道</a></li>
+                    <li><a href="#">天涯明月刀</a></li>
+                    <li><a href="#">天谕</a></li>
+                    <li><a href="#">穿越火线</a></li>
+                    <li><a href="#">逆战</a></li>
+                    <li><a href="#">冒险岛</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cl"></div>
+    </div>
+    <div class="box">
+        <div class="noticeBox">
+            <span class="position fl">您的位置：<a href="../index2.html">首页</a>&gt;<a href="#">九阴真经</a></span>
+            <span class="find fr">为您找到：<a href="#">九阴真经</a> &nbsp;&nbsp;&nbsp;相关产品: <span class="num">82456</span> 件</span>
+        </div>
+        <div class="choiceBox">
+            <div class="typeChoice">
+                <span class="leftBox fl">商品类型选择</span>
+                <div class="rightBox fl">
+                    <ul>
+                        <li><a href="#">装备</a></li>
+                        <li><a href="#">游戏币</a></li>
+                        <li><a href="#">游戏账号</a></li>
+                        <li><a href="#">游戏代练</a></li>
+                        <li><a href="#">点卡</a></li>
+                        <li><a href="#">激活码</a></li>
+                        <li><a href="#">黄金</a></li>
+                        <li><a href="#">直冲黄金</a></li>
+                        <li><a href="#">材料</a></li>
+                        <li><a href="#">黄金</a></li>
+                        <li><a href="#">黄金</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </div>
+                <div class="cl"></div>
+            </div>
+            <div class="areaChoice">
+                <span class="leftBox fl">游戏区选择</span>
+                <div class="rightBox fl">
+                    <ul>
+                        <li><a href="#">全球华语中国一区</a></li>
+                        <li><a href="#">全球华语中国二区</a></li>
+                        <li><a href="#">全球华语中国三区</a></li>
+                        <li><a href="#">电信一区</a></li>
+                        <li><a href="#">电信二区</a></li>
+                        <li><a href="#">电信三区</a></li>
+                        <li><a href="#">电信四区</a></li>
+                        <li><a href="#">网通一区</a></li>
+                        <li><a href="#">网通二区</a></li>
+                        <li><a href="#">武侠区</a></li>
+                        <li><a href="#">其他</a></li>
+                    </ul>
+                </div>
+                <div class="cl"></div>
+            </div>
+        </div>
+        <div class="listBox">
+            <div class="topBox">
+                <ul class="fl">
+                    <li class="active">全部商品</li>
+                    <li>账号</li>
+                    <li>装备</li>
+                    <li>金币</li>
+                    <li>点卡</li>
+                    <li>激活码</li>
+                    <li>游戏代练</li>
+                    <li>其他</li>
+                </ul>
+                <a href="#" class="more fr">更多&gt;&gt;</a>
+                <div class="fl"></div>
+            </div>
+            <div class="filterBox">
+                <div class="priceFilter fl">
+                    <label>价格区间：
+                        <input type="text" name="minPrice">
+                        --
+                        <input type="text" name="maxPrice">
+                        <button type="submit">确定</button>
+                    </label>
+                </div>
+                <div class="filterFeature fr">
+                    <label>选择:</label>
+                        <input type="checkbox" value="寄售交易">寄售交易
+                        <input type="checkbox" value="担保交易">担保交易
+                        <input type="checkbox" value="无货赔付">无货赔付
+                        <input type="checkbox" value="修改注册资料">修改注册资料
+                        <input type="checkbox" value="交易安全险">交易安全险
+                        <input type="checkbox" value="找回包赔">找回包赔
+                        <input type="checkbox" value="卖家保险">卖家保险
+                </div>
+                <div class="cl"></div>
+                <button class="defaultSort fl">默认排序</button>
+                <button class="honestySort fl">卖家信用</button>
+                <button class="priceSort fl">价格
+                    <div class="arrowBox fr">
+                        <div class="arrowUp">︿</div>
+                        <div class="arrowDown">﹀</div>
+                    </div>
+                    <div class="cl"></div>
+                </button>
+                <div class="cl"></div>
+            </div>
+            <div class="mainBox">
+                <div class="detailBox">
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="detailInfo fl">
+                        <img src="../img/recom1.jpg" class="fl"/>
+                        <div class="titleCon fl">
+                            <h1 class="title">大战神[游戏币]</h1>
+                            <div class="credit">
+                                <span class="fl">卖家信用</span>
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                                <img src="../img/star.png" class="fl">
+                            </div>
+                        </div>
+                        <div class="info fl">
+                            <span class="rate">4000万金币=86.09元[绿色商品，安全迅速] [邮寄交易，快速发货]</span>
+                            <span class="area">游戏/区/服：地下城与勇士/云贵区/云南1区</span>
+                        </div>
+                        <span class="price fl">￥86.09</span>
+                        <button type="button" class="buyBtn fr">购买</button>
+                        <div class="cl"></div>
+                    </div>
+                    <div class="cl"></div>
+                </div>
+            </div>
+            <div class="pagination">
+                <ul class="fr">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>...</li>
+                    <li>100</li>
+                    <li>下一页</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="advcon">
+        <h1>广告位</h1>
+    </div>
+    <div class="index-footer">
+        <div class="serviceBox cl">
+            <div class="service fl">
+                <ul>
+                    <p>新手入门</p>
+                    <li><a href="#">诚信与安全</a></li>
+                    <li><a href="#">用户注册</a></li>
+                    <li><a href="#">交易流程</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>充值提现</p>
+                    <li><a href="#">充值方式</a></li>
+                    <li><a href="#">如何提现</a></li>
+                    <li><a href="#">交易收费标准</a></li>
+                    <li><a href="#">提现收费标准</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>客服中心</p>
+                    <li><a href="#">客服验证</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">咨询建议</a></li>
+                    <li><a href="#">商务合作</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>了解9123</p>
+                    <li><a href="#">信念与荣耀</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">免责声明</a></li>
+                    <li><a href="#">隐私保护</a></li>
+                </ul>
+            </div>
+            <div class="cl"></div>
+        </div>
+        <div class="declare">
+            <ul>
+                <li><a href="#">&nbsp;关于我们&nbsp;</a></li>|
+                <li><a href="#">&nbsp;合作联系&nbsp;</a></li>|
+                <li><a href="#">&nbsp;隐私保护&nbsp;</a></li>|
+                <li><a href="#">&nbsp;投诉建议&nbsp;</a></li>|
+                <li><a href="#">&nbsp;诚聘英才&nbsp;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/tagChange.js"></script>
+<script>
+    $(document).ready(function(){
+        tagChange(".listBox .topBox");
+    })
+</script>
+</body>
+</html>

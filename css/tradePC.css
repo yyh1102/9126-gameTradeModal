@@ -1,0 +1,189 @@
+.bigImg{
+    background: url("../img/PC-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: 514px;
+    width:108px;
+}
+
+/* web game ranking*/
+.PCGameRanking{
+    width:1000px;
+    height:568px;
+    margin: 50px auto;
+}
+.PCGameRanking .adverCon{
+    width:550px;
+    height:626px;
+    line-height: 580px;
+    background-color: #EDEDED;
+}
+.PCGameRanking .adverCon h1{
+    color:#A2A1A1;
+    font-size: 54px;
+}
+.gameRankingBox{
+    width:400px;
+    height:624px;
+    margin-left: 40px;
+    border: 1px solid #F39700 ;
+}
+.gameRankingBox .topBox{
+    width:400px;
+    height:45px;
+    line-height: 45px;
+    background-color: #F39700 ;
+    font-size: 14px;
+}
+.gameRankingBox .topBox ul li{
+    display: inline-block;
+    width:198px;
+    height:44px;
+    margin-left: -1px;
+    margin-top: 1px;
+    background-color: #F39700 ;
+    cursor:pointer;
+    color:white;
+}
+.gameRankingBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.gameRankingBox .topBox .active{
+    background-color: white;
+    color:#F39700;
+}
+.gameRankingBox .mainBox{
+    width:400px;
+    height:533px;
+    margin:0px auto;
+}
+
+.gameRankingBox .mainBox ul a{
+    display: block;
+    width:400px;
+    height:57px;
+    line-height: 57px;
+    border-bottom: 1px solid #F39700 ;
+}
+.gameRankingBox .mainBox .icon{
+    width:50px;
+    height:40px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.gameRankingBox .mainBox .id{
+    color:#F39800;
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.gameRankingBox .mainBox .game{
+    margin-left: 10px;
+}
+.gameRankingBox .mainBox .renqi{
+    margin-right: 30px;
+}
+.gameRankingBox .mainBox .hot{
+    display: block;
+    width:50px;
+    color:#F39800;
+    margin-right: 8px;
+}
+
+/* readyPublish box*/
+.readyPublishMainBox{
+    width:1000px;
+    margin:150px auto;
+}
+.readyPublishMainBox .topBox{
+    width:1000px;
+    height:30px;
+    margin-top: 20px;
+}
+.readyPublishMainBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    line-height: 40px;
+    background-color: #F39700 ;
+    margin-left: -2px;
+    border:1px solid #F39700 ;
+    cursor:pointer;
+    color:white;
+}
+.readyPublishMainBox .topBox ul{
+    background-color: #F39700 ;
+}
+.readyPublishMainBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.readyPublishMainBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.readyPublishMainBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.readyPublishMainBox .mainBox{
+    width:998px;
+    height:529px;
+    margin-top: 9px;
+    border:1px solid #F39700 ;
+}
+.readyPublishMainBox .letterBox{
+    width:998px;
+    height:25px;
+    margin-top: 10px;
+}
+.readyPublishMainBox .letterBox span{
+    color:#F39700;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.readyPublishMainBox .letterBox ul{
+    margin-left: 20px;
+}
+.readyPublishMainBox .letterBox ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.readyPublishMainBox .mainBox .detailBox{
+    width:980px;
+    height:500px;
+    margin-top: 6px;
+    padding-left: 20px;
+}
+.readyPublishMainBox .mainBox .detailInfo{
+    width:230px;
+    height:122px;
+    padding-top:25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F39700 ;
+}
+.readyPublishMainBox .mainBox .detailInfo img{
+    width:120px;
+    height:90px;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+.readyPublishMainBox .mainBox .detailInfo:hover img{
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.readyPublishMainBox .mainBox  .title{
+    font-size: 12px;
+    margin-top:10px;
+    color:#868683;
+}

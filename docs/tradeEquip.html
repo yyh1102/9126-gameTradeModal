@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>9126-装备交易</title>
+    <link rel="stylesheet" type="text/css" href="../css/init.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageHeader.css">
+    <link rel="stylesheet" type="text/css" href="../css/pageFooter.css">
+    <link rel="stylesheet" type="text/css" href="../css/pendant.css">
+    <link rel="stylesheet" type="text/css" href="../css/tradeEquip.css">
+    <script src="../js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+<div class="pendant fl">
+    <button><a href="#">我要买</a></button>
+    <button><a href="#">我要卖</a></button>
+    <button><a href="#">我的9126</a></button>
+</div>
+<script>
+    setInterval(function(){
+        var box=$(".box");
+        var boxLeft=box.offset().left;
+        var boxWidth=box.width();
+        $(".pendant").css({
+            'left':boxLeft+boxWidth
+        })
+    },50)
+</script>
+<div class="container">
+    <script src="../js/headModel.js"></script>
+    <div class="box">
+        <div class="equipDealBox">
+            <div class="titleBox">
+                <div class="decorateBar fl"></div>
+                <h1 class="fl">装备交易</h1>
+                <div class="decorateBar fl"></div>
+                <div class="cl"></div>
+            </div>
+            <script>
+                setInterval(function(){
+                    var dcbar=$(".equipDealBox .decorateBar");
+                    var bar1=dcbar.eq(0);
+                    var bar2=dcbar.eq(1);
+                    var box=$(".titleBox");
+                    var boxLeft=box.offset().left;
+                    var boxWidth=box.width();
+                    //                    console.log(boxWidth);
+                    bar1.css({
+                        'left':boxLeft,
+                        'width':boxWidth/2.5
+                    });
+                    bar2.css({
+                        'left':boxWidth+boxLeft-boxWidth/2.5,
+                        'width':boxWidth/2.5
+                    })
+                },50)
+            </script>
+            <div class="Left fl">
+                <div class="L-leftBox fl">
+                    <span>装备分类</span>
+                    <ul>
+                        <li class="active">装备</li>
+                        <li>宝宝</li>
+                        <li>材料</li>
+                        <li>坐骑</li>
+                        <li>其他</li>
+                    </ul>
+                </div>
+                <div class="L-mainBox fl">
+                    <dl>
+                        <dt>武器</dt>
+                        <dd><a href="#">地下城与勇士</a></dd>
+                        <dd><a href="#">奇迹MU</a></dd>
+                        <dd><a href="#">问道</a></dd>
+                        <dd><a href="#">华夏</a></dd>
+                        <dd><a href="#">蜀门</a></dd>
+                        <dd><a href="#">武林外传</a></dd><br><br>
+                        <a class="more" href="#">更多&gt;&gt;</a>
+                    </dl>
+                    <dl>
+                        <dt>武器</dt>
+                        <dd><a href="#">地下城与勇士</a></dd>
+                        <dd><a href="#">奇迹MU</a></dd>
+                        <dd><a href="#">问道</a></dd>
+                        <dd><a href="#">华夏</a></dd>
+                        <dd><a href="#">蜀门</a></dd>
+                        <dd><a href="#">武林外传</a></dd><br><br>
+                        <a class="more" href="#">更多&gt;&gt;</a>
+                    </dl>
+                    <dl>
+                        <dt>武器</dt>
+                        <dd><a href="#">地下城与勇士</a></dd>
+                        <dd><a href="#">奇迹MU</a></dd>
+                        <dd><a href="#">问道</a></dd>
+                        <dd><a href="#">华夏</a></dd>
+                        <dd><a href="#">蜀门</a></dd>
+                        <dd><a href="#">武林外传</a></dd><br><br>
+                        <a class="more" href="#">更多&gt;&gt;</a>
+                    </dl>
+                    <dl>
+                        <dt>武器</dt>
+                        <dd><a href="#">地下城与勇士</a></dd>
+                        <dd><a href="#">奇迹MU</a></dd>
+                        <dd><a href="#">问道</a></dd>
+                        <dd><a href="#">华夏</a></dd>
+                        <dd><a href="#">蜀门</a></dd>
+                        <dd><a href="#">武林外传</a></dd><br><br>
+                        <a class="more" href="#">更多&gt;&gt;</a>
+                    </dl>
+                </div>
+            </div>
+            <div class="Right fl">
+                <div class="R-topBox">
+                    <span class="fl">本周装备交易排行榜</span>
+                    <a href="#" class="fr">更多&gt;&gt;</a>
+                    <div class="cl"></div>
+                </div>
+                <div class="R-mainBox">
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">①</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">②</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">③</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">④</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">⑤</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">⑥</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">⑦</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                    <div class="detailInfo">
+                        <a href="#">
+                            <h1 class="id fl">⑧</h1>
+                            <h1 class="user fl">陈淼仙品</h1>
+                            <p class="game fl">仙侠情缘3</p>
+                            <h1 class="price fl">￥30000</h1>
+                            <div class="cl"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cl"></div>
+        </div>
+    </div>
+    <div class="advCon">
+        <h1>广告位</h1>
+    </div>
+    <div class="box">
+        <div class="hotRecommend cl">
+            <div class="titleBox">
+                <div class="decorateBar fl"></div>
+                <h1 class="fl">热门推荐</h1>
+                <div class="decorateBar fl"></div>
+                <div class="cl"></div>
+            </div>
+            <script>
+                setInterval(function(){
+                    var dcbar=$(".hotRecommend .decorateBar");
+                    var bar1=dcbar.eq(0);
+                    var bar2=dcbar.eq(1);
+                    var box=$(".hotRecommend .titleBox");
+                    var boxLeft=box.offset().left;
+                    var boxWidth=box.width();
+//                    console.log(boxWidth);
+                    bar1.css({
+                        'left':boxLeft,
+                        'width':boxWidth/2.5
+                    });
+                    bar2.css({
+                        'left':boxWidth+boxLeft-boxWidth/2.5,
+                        'width':boxWidth/2.5
+                    })
+                },50)
+            </script>
+            <div class="recomMainBox">
+                <div class="topBox">
+                    <ul class="fl">
+                        <li class="active">地下城与勇士</li>
+                        <li>奇迹MU</li>
+                        <li>R2</li>
+                        <li>梦幻西游</li>
+                        <li>天涯明月刀</li>
+                        <li>跑跑卡丁车</li>
+                    </ul>
+                    <a href="#" class="more fr">更多&gt;&gt;</a>
+                    <div class="fl"></div>
+                </div>
+                <div class="mainBox">
+                    <div class="tagBox">
+                        <ul>
+                            <li class="active">套装</li>
+                            <li>特殊装备</li>
+                            <li>卡片</li>
+                        </ul>
+                    </div>
+                    <div class="detailBox cl">
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="detailInfo fl">
+                                <img src="../img/gameIcon.jpg" class="fl"/>
+                                <div class="detailExplain fl">
+                                    <p class="title">三个祝福宝石</p>
+                                    <h1 class="price">￥90</h1>
+                                    <h1 class="sold">本周售出<span class="number">428</span>件</h1>
+                                </div>
+                                <div class="cl"></div>
+                            </div>
+                        </a>
+                        <div class="cl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index-footer">
+        <div class="serviceBox cl">
+            <div class="service fl">
+                <ul>
+                    <p>新手入门</p>
+                    <li><a href="#">诚信与安全</a></li>
+                    <li><a href="#">用户注册</a></li>
+                    <li><a href="#">交易流程</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>充值提现</p>
+                    <li><a href="#">充值方式</a></li>
+                    <li><a href="#">如何提现</a></li>
+                    <li><a href="#">交易收费标准</a></li>
+                    <li><a href="#">提现收费标准</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>客服中心</p>
+                    <li><a href="#">客服验证</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">咨询建议</a></li>
+                    <li><a href="#">商务合作</a></li>
+                </ul>
+            </div>
+            <div class="service fl">
+                <ul>
+                    <p>了解9123</p>
+                    <li><a href="#">信念与荣耀</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">免责声明</a></li>
+                    <li><a href="#">隐私保护</a></li>
+                </ul>
+            </div>
+            <div class="cl"></div>
+        </div>
+        <div class="declare">
+            <ul>
+                <li><a href="#">&nbsp;关于我们&nbsp;</a></li>|
+                <li><a href="#">&nbsp;合作联系&nbsp;</a></li>|
+                <li><a href="#">&nbsp;隐私保护&nbsp;</a></li>|
+                <li><a href="#">&nbsp;投诉建议&nbsp;</a></li>|
+                <li><a href="#">&nbsp;诚聘英才&nbsp;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/tagChange.js"></script>
+<script>
+    $(document).ready(function(){
+        tagChange('.equipDealBox .Left');
+        tagChange('.hotRecommend .topBox');
+        tagChange('.hotRecommend .mainBox .tagBox');
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+.bigImg{
+    background: url("../img/mobileGame-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: 342px;
+}
+
+/* Category box & Recharge box*/
+.CateAndRecharge{
+    width:1000px;
+    height: 550px;
+    margin:80px auto;
+}
+.categoryBox{
+    width:485px;
+    height:545px;
+    border:1px solid #F39700;
+}
+.categoryBox .topBox{
+    width:485px;
+    height:45px;
+    line-height: 45px;
+    background-color: #F39700;
+}
+.categoryBox .title{
+    font-size: 16px;
+    color:white;
+}
+.categoryBox .more{
+    margin-top: -45px;
+    margin-right: 20px;
+}
+.categoryBox .leftBox{
+    width:170px;
+    height:405px;
+    margin-left: -1px;
+}
+.categoryBox .rightBox{
+    width:315px;
+    height:405px;
+}
+.categoryBox .leftBox ul li{
+    width:170px;
+    height:83px;
+    line-height: 83px;
+    background-color: #EDEDED;
+    border-left: 1px solid #F39700;
+    border-right: 1px solid #F39700;
+    cursor: pointer;
+}
+.categoryBox .leftBox ul .active{
+    background-color: #ffffff;
+    border-right:0px;
+    border-bottom: 1px solid #F39700;
+    border-top: 1px solid #F39700;
+}
+.categoryBox .rightBox{
+    text-align: left;
+    width:315px;
+    height:405px;
+}
+.categoryBox .rightBox dl{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.categoryBox .rightBox dd{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top:35px;
+}
+.RechargeBox{
+    width:400px;
+    height:546px;
+    margin-left: 110px;
+    border: 1px solid #F39700;
+}
+.RechargeBox .topBox{
+    width:400px;
+    height:45px;
+    line-height: 45px;
+    background-color: #F39700;
+    color:white;
+}
+.RechargeBox .title{
+    font-size: 16px;
+}
+.RechargeBox .mainBox{
+    width:400px;
+    height:501px;
+}
+.RechargeBox form{
+    width:300px;
+    height:350px;
+    margin:10px auto;
+}
+.RechargeBox input{
+    width:290px;
+    height:30px;
+    padding:5px;
+    font-size: 14px;
+    margin-top: 45px;
+}
+.RechargeBox select{
+    width:305px;
+    height:35px;
+    margin-top: 45px;
+    padding:5px;
+    border-radius: 5px;
+}
+.RechargeBox .submitBtn{
+    width: 160px;
+    height:35px;
+    border: 0px;
+    border-radius: 5px;
+    color:snow;
+    background-color: #F39700;
+    cursor: pointer;
+    margin-top: 60px;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.RechargeBox .submitBtn:hover{
+    background-color: #f7953b;
+}
+
+/* advertise container*/
+.advCon{
+    width:100%;
+    height: 250px;
+    min-width:1000px;
+    background-color: #EDEDED;
+    margin-top:40px;
+    line-height: 250px;
+}
+.advCon h1{
+    width:150px;
+    margin:0px auto;
+    font-size: 48px;
+    color:#A2A1A1;
+}
+
+/* hotRecommend Box*/
+.hotRecommend{
+    width:1000px;
+    margin:70px auto;
+}
+
+.recomMainBox{
+    width:1000px;
+    margin:20px auto;
+}
+.recomMainBox .topBox{
+    width:1000px;
+    height:30px;
+}
+.recomMainBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+    color:white;
+}
+.recomMainBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.recomMainBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.recomMainBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.recomMainBox .mainBox{
+    width:998px;
+    height:529px;
+    margin-top: 9px;
+    border:1px solid #F39700;
+}
+.recomMainBox .letterBox{
+    width:998px;
+    height:25px;
+    margin-top: 10px;
+}
+.recomMainBox .letterBox span{
+    color:#F39700;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.recomMainBox .letterBox ul{
+    margin-left: 20px;
+}
+.recomMainBox .letterBox ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.recomMainBox .mainBox .detailBox{
+    width:980px;
+    height:500px;
+    margin-top: 6px;
+    padding-left: 20px;
+}
+.recomMainBox .mainBox .detailInfo{
+    width:230px;
+    height:122px;
+    padding-top:25px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F39700;
+}
+.recomMainBox .mainBox .detailInfo img{
+    width:120px;
+    height:90px;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+    transition: transform 0.3s;
+}
+.recomMainBox .mainBox .detailInfo:hover img{
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.recomMainBox .mainBox  .title{
+    font-size: 12px;
+    margin-top:10px;
+    color:#868683;
+}

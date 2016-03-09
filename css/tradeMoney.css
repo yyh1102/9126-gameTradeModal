@@ -1,0 +1,155 @@
+.bigImg{
+    background: url("../img/money-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: 170px;
+}
+/* priceSearchBox */
+.priceSearchBox{
+    margin: 50px auto;
+    width:1000px;
+    height:480px;
+}
+.priceSearch{
+    /*margin-left: 50px;*/
+    width:480px;
+    height:480px;
+    border: 1px solid #F39700;
+}
+.priceSearch .title{
+    color:#FF9900;
+    font-size: 16px;
+    margin-top:30px;
+}
+.priceSearch .divideBar{
+    width:400px;
+    height:1px;
+    margin:20px auto;
+    background-color: #FF9900;
+}
+.searchForm{
+    width:400px;
+    height:430px;
+    margin:30px auto;
+    text-align: left;
+}
+.searchForm select{
+    width:380px;
+    height:45px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.searchForm select:first-child{
+    margin-top: 0px;
+}
+.searchForm .submitBtn{
+    margin-top: 30px;
+    width:120px;
+    height:40px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    background-color: #F39700;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.searchForm .submitBtn:hover{
+    background-color: #f7953b;
+}
+.adverCon{
+    width: 430px;
+    height:480px;
+    line-height: 480px;
+    background-color: #EDEDED;
+    margin-left: 85px;
+}
+.adverCon h1{
+    color:#ffffff;
+    font-size: 64px;
+}
+
+/* hot recommend */
+.hotRecommend{
+    width:1000px;
+    margin:80px auto;
+}
+.recomMainBox{
+    width:1000px;
+    margin:40px auto;
+}
+.recomMainBox .topBox{
+    width:1000px;
+    height:30px;
+}
+.recomMainBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+    color:white;
+}
+.recomMainBox .topBox .active{
+    position: relative;
+    z-index:1;
+    color:#F39700;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.recomMainBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.recomMainBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.mainBox{
+    width:1000px;
+    height:799px;
+    margin-top: 9px;
+    border: 1px solid #F39700;
+}
+.mainBox .detailInfo{
+    width:240px;
+    height:246px;
+    padding-top:20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #F39700;
+}
+.mainBox .detailInfo img{
+    width:120px;
+    height:100px;
+}
+.mainBox .detailExplain{
+    width:100px;
+    height:120px;
+    margin:10px auto;
+}
+.mainBox .detailExplain .title{
+    font-size: 12px;
+    margin-top:15px;
+}
+.mainBox .detailExplain .zone{
+     width:100px;
+     margin-top: 10px;
+     font-size: 14px;
+}
+.mainBox .detailExplain .exchange{
+    margin-top: 15px;
+}
+.mainBox .detailExplain .price{
+    margin-top: 20px;
+}
+.mainBox .detailExplain .number{
+    color:#FD6A00;
+    font-weight: bold;
+}

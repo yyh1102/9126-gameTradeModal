@@ -1,0 +1,422 @@
+.container{
+    width:100%;
+    height:1400px;
+    min-width:1000px;
+    background: url("../img/index-backGround.jpg") no-repeat left top;
+    background-size: cover;
+}
+.pendant{
+    width:130px;
+    height:140px;
+    position: fixed;
+    top:172px;
+}
+.pendant button{
+    width: 128px;
+    height:44px;
+    border: 1px solid #8E5143;
+    opacity: 0.7;
+    background-color: snow;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+.pendant a{
+    display: block;
+    color:#7f443f;
+    width: 128px;
+    height:44px;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pendant button:hover{
+    background-color: #7f443f;
+}
+.pendant button:hover a{
+    color:snow;
+}
+/* header */
+.index-header{
+    width:100%;
+    min-width: 1000px;
+    height:40px;
+    background-color: snow;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.loginBox{
+    margin-left: 60px;
+    width:300px;
+    height:40px;
+}
+.loginBox a{
+    color: #7f443f;
+}
+.funcBox{
+    margin-right: 40px;
+    width:450px;
+    height:40px;
+}
+.funcBox a:hover{
+    color: #7f443f;
+}
+.loginBox ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+
+}
+.funcBox ul li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+/*Logo Box*/
+.LogoBox{
+    width:568px;
+    height:95px;
+    border: 2px solid snow;
+    margin: 148px auto;
+    color:snow;
+    font-size: 36px;
+    line-height: 95px;
+}
+.LogoBox a{
+    color:snow;
+}
+.LogoBox a:hover{
+    text-decoration: none;
+    color:snow;
+}
+.searchBox{
+    width:900px;
+    margin: 0px auto;
+}
+.searchBox input{
+    width:150px;
+    height:30px;
+    float: left;
+    border:1px solid #B16C4E;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.searchBox .submitBtn{
+    width:80px;
+    height:32px;
+    background-color: #b15f43;
+    border: 0px;
+    opacity: 0.85;
+    cursor: pointer;
+    color:snow;
+    line-height: 32px;
+    font-size: 18px;
+    padding-left: 0px;
+}
+.searchBox .showBox{
+    position: absolute;
+    text-align: left;
+    margin-left:-55px;
+}
+.searchBox .gameChoice{
+    display:none;
+    z-index:3;
+    width:1000px;
+    background-color: snow;
+    top:490px;
+    border: 1px solid #b15f43;
+    padding-bottom: 15px;
+}
+.searchBox .outerTri {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #b15f43;
+    margin-top: -12px;
+    margin-left: -2px;
+}
+.searchBox .innerTri{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid snow;
+    margin-top:-10px;
+    margin-left:0px;
+}
+.searchBox .triangle-up{
+    height:10px;
+    margin-left: 70px;
+}
+.searchBox .gameChoice .topBox{
+    width:291px;
+    height:37px;
+    background-color: #b15f43;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.searchBox .gameChoice .topBox ul li{
+    display: inline-block;
+    width:95px;
+    height:35px;
+    line-height: 35px;
+    color:snow;
+    border: 1px solid #b15f43;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.searchBox .gameChoice .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.searchBox .gameChoice .topBox .active{
+    background-color: snow;
+    color:#b15f43;
+}
+.searchBox .gameChoice .letterBox{
+    width:700px;
+    height:25px;
+    margin-top: 10px;
+}
+.searchBox .gameChoice .letterBox span{
+    color:#b15f43;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.searchBox .gameChoice .letterBox ul{
+    margin-left: 20px;
+    background-color: #EDEDED;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.searchBox .gameChoice .letterBox ul li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.searchBox .gameChoice .letterBox ul li:first-child{
+    margin-left: 2px;
+}
+.searchBox .gameChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.searchBox .gameChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:160px;
+    height:20px;
+    margin-top: 20px;
+}
+.searchBox .choiceMainBox ul li{
+    cursor: pointer;
+}
+.searchBox .choiceMainBox ul li:hover{
+    color:#C75C28;
+}
+
+.searchBox .areaChoice,.searchBox .serverChoice,.searchBox .goodsChoice{
+    display:none;
+    z-index:3;
+    width:1000px;
+    background-color: snow;
+    top:490px;
+    border: 1px solid #b15f43;
+    padding-bottom: 15px;
+}
+.searchBox .areaChoice .triangle-up{
+    margin-left: 240px;
+}
+.searchBox .areaChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #b15f43;
+    padding-bottom: 10px;
+}
+.searchBox .areaChoice .topBox h1{
+    color: #b15f43;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .areaChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .areaChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.searchBox .serverChoice .triangle-up{
+    margin-left: 410px;
+}
+.searchBox .serverChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #b15f43;
+    padding-bottom: 10px;
+}
+.searchBox .serverChoice .topBox h1{
+    color: #b15f43;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .serverChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .serverChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+.searchBox .goodsChoice .triangle-up{
+    margin-left: 570px;
+}
+.searchBox .goodsChoice .topBox{
+    width:95%;
+    margin: 5px auto;
+    border-bottom: 1px solid #b15f43;
+    padding-bottom: 10px;
+}
+.searchBox .goodsChoice .topBox h1{
+    color: #b15f43;
+    display: block;
+    margin-left: 5px;
+}
+.searchBox .goodsChoice .choiceMainBox{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.searchBox .goodsChoice .choiceMainBox ul li{
+    display: inline-block;
+    width:150px;
+    height:20px;
+    margin-top: 10px;
+}
+
+/* navBar */
+.navBar{
+    margin: 340px auto;
+    margin-bottom: 0px;
+    width:600px;
+}
+.navBar ul li{
+    display: inline-block;
+    font-size: 18px;
+    width:140px;
+    height:35px;
+    line-height: 35px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.navBar ul li:first-child{
+    margin-left: 0px;
+}
+.navBar ul li a{
+    width:140px;
+    height:35px;
+    display: block;
+    color:#e7dede;
+    font-size: 16px;
+    background-color: #32201A;
+    opacity: 0.75;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    border-radius: 2px;
+}
+.navBar ul li a:hover{
+    text-decoration: none;
+    background-color: #5c3d33;
+}
+
+/* Two Module*/
+.TwoModule{
+    margin:90px auto;
+    width:400px;
+    height:80px;
+}
+.TwoModule a{
+    display: block;
+    height:55px;
+    line-height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#552a2a;
+    background-color: snow;
+    opacity: 0.7;
+    text-align: center;
+    border: 1px solid #603830;
+    border-radius: 3px;
+    padding:0px 15px 0px 15px;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+.TwoModule a:hover{
+    text-decoration: none;
+    background-color: #603830;
+    color:snow;
+    opacity: 0.8;
+}
+
+
+/* footer */
+.index-footer{
+    width:100%;
+    min-width: 1000px;
+    margin-top: 200px;
+}
+.serviceBox{
+    margin: 0px auto;
+    width:600px;
+    height:200px;
+}
+.service{
+    margin-left: 90px;
+}
+.service:first-child{
+    margin-left: 0px;
+}
+.service ul p{
+    font-size: 18px;
+    color: #cccccc;
+}
+.service ul li{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.service ul li a{
+    font-size: 14px;
+    color:#cccccc;
+}
+.declare{
+    width:380px;
+    height:15px;
+    margin:60px auto;
+    margin-bottom: 0px;
+}
+.declare ul li{
+    display: inline-block;
+}
+.declare ul li a{
+    font-size: 14px;
+}

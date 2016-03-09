@@ -1,0 +1,181 @@
+.bigImg{
+    background: url("../img/play-banner.jpg") no-repeat left;
+    background-size: cover;
+}
+.underLine{
+    margin-left: 647px;
+}
+
+/* advertise container*/
+.advCon{
+    width:100%;
+    height: 250px;
+    min-width:1000px;
+    background-color: #EDEDED;
+    margin-top:40px;
+    line-height: 250px;
+}
+.advCon h1{
+    width:150px;
+    margin:0px auto;
+    font-size: 48px;
+    color:#A2A1A1;
+}
+
+/* hot booster */
+.hotBooster{
+    width:1000px;
+    height: 550px;
+    margin:80px auto;
+}
+.boosterBox{
+    width:485px;
+    height:547px;
+    border:1px solid #F39700;
+}
+.boosterBox .topBox{
+    width:485px;
+    height:45px;
+    line-height: 45px;
+    background-color: #F39700;
+}
+.boosterBox .title{
+    font-size: 16px;
+    color:white;
+}
+.boosterBox .more{
+    margin-top: -45px;
+    margin-right: 20px;
+}
+.boosterBox .leftBox{
+    width:170px;
+    height:405px;
+    margin-left: -1px;
+}
+.boosterBox .rightBox{
+    width:315px;
+    height:405px;
+}
+.boosterBox .leftBox ul li{
+    width:170px;
+    height:100px;
+    line-height: 100px;
+    background-color: #EDEDED;
+    border-left: 1px solid #F39700;
+    border-right: 1px solid #F39700;
+    cursor: pointer;
+}
+.boosterBox .leftBox ul .active{
+    background-color: #ffffff;
+    border-right:0px;
+    border-bottom: 1px solid #F39700;
+    border-top: 1px solid #F39700;
+}
+.boosterBox .rightBox{
+    text-align: left;
+    width:315px;
+    height:405px;
+}
+.boosterBox .rightBox dl{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+.boosterBox .rightBox dt{
+    margin-left: 40px;
+    color:#f19701;
+}
+.boosterBox .rightBox dd{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top:35px;
+}
+.advContainer{
+    width:440px;
+    height:550px;
+    line-height: 550px;
+    background-color: #EDEDED;
+    margin-left: 70px;
+}
+.advContainer h1{
+    color:#A0A0A0;
+    font-size: 60px;
+}
+
+
+/* latest booster need*/
+.latestBoosterNeed{
+    width:1000px;
+    margin:50px auto;
+}
+.latestMainBox{
+    width:1000px;
+    margin:40px auto;
+}
+.latestMainBox .topBox{
+    width:1000px;
+    height:30px;
+}
+.latestMainBox .topBox ul li{
+    display: inline-block;
+    width:118px;
+    height:38px;
+    line-height: 40px;
+    background-color: #F39700;
+    margin-left: -2px;
+    border:1px solid #F39700;
+    cursor:pointer;
+    color:white;
+}
+.latestMainBox .topBox .active{
+    position: relative;
+    z-index:1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color:#F39700;
+}
+.latestMainBox .topBox ul li:first-child{
+    margin-left: 0px;
+}
+.latestMainBox .topBox .more{
+    line-height: 40px;
+    margin-right: 10px;
+}
+.latestMainBox .mainBox{
+    width:1000px;
+    height:306px;
+    margin-top: 9px ;
+    border:1px solid #F39700
+}
+.latestMainBox .mainBox .subBox{
+    width:900px;
+    margin:0px auto;
+}
+.latestMainBox .leftDetailBox{
+    width:400px;
+    height:256px;
+    text-align: left;
+}
+.latestMainBox .rightDetailBox{
+    width:400px;
+    height:256px;
+    text-align: left;
+    margin-left: 80px;
+}
+.latestMainBox .leftDetailBox ul li,.latestMainBox .rightDetailBox ul li{
+    margin-top: 30px;
+}
+.latestMainBox .price{
+    color:#FF9C01;
+}
+.latestMainBox .subBox .more{
+    display: block;
+    margin-top: 15px;
+}
+
+
+/* latest booster set*/
+.latestBoosterSet{
+    width:1000px;
+    margin:50px auto;
+    margin-bottom: 100px;
+}
